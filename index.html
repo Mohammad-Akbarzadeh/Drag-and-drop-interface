@@ -8,55 +8,37 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <script src="./app.js" defer></script>
     <title>Drag and drop</title>
   </head>
   <body>
-    <main>
-      <div class="cardContainer">
-        <h1 id="h1-1">Sortable List</h1>
+    <div class="container">
+      <h1>Sortable List</h1>
+      <div class="left-box">
+        <div draggable="true" class="DropElement one">
+          <img src="./img/Frame 28.svg" />
+        </div>
 
-        <div class="card-box">
-          <div class="cards-main">
-            <div class="cards">
-              <img
-                src="./img/drag_indicator_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-                alt="drag"
-              />
-              <div class="card-p">
-                <h1>List Item 4</h1>
-                <p>Description of the fourth item in the list.</p>
-              </div>
-            </div>
-          </div>
+        <div draggable="true" class="DropElement two">
+          <img src="./img/Frame 29.svg" />
+        </div>
 
-          <div class="cards-main">
-            <div class="cards">
-              <img
-                src="./img/drag_indicator_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-                alt="drag"
-              />
-              <div class="card-p">
-                <h1>List Item 4</h1>
-                <p>Description of the fourth item in the list.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="cards-main">
-            <div class="cards">
-              <img
-                src="./img/drag_indicator_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-                alt="drag"
-              />
-              <div class="card-p">
-                <h1>List Item 4</h1>
-                <p>Description of the fourth item in the list.</p>
-              </div>
-            </div>
-          </div>
+        <div draggable="true" class="DropElement three">
+          <img src="./img/Frame 30.svg" />
         </div>
       </div>
-    </main>
+    </div>
+    <div class="container">
+      <h1>Sortable List</h1>
+      <div class="right-box">
+        <div draggable="true" class="DropElement one">
+          <img src="./img/Frame 28.svg" />
+        </div>
+
+        <div draggable="true" class="DropElement two">
+          <img src="./img/Frame 29.svg" />
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="./app.js"></script>
 </html>
